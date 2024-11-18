@@ -45,3 +45,21 @@ After completing all the steps above, you can access the key functionalities of 
 
 This project uses MySQL as the database for all microservices. You can either use a single database schema shared across all microservices or separate schemas for each microservice, depending on your architectural needs. Both approaches are supported, allowing flexibility in how data is organized and managed across the services. The choice of schema setup should align with your scalability, security, and data isolation requirements.
 
+## How to Run the Application on a Developer's Local System
+
+1. Clone the Repository:
+   - git clone https://github.com/tesabel85/somos-homework.git
+
+2. Configure MySQL:
+   - Set up a MySQL database and configure the connection details in the application.properties files for each microservice.
+
+3. Install Dependencies:
+   - For backend (Spring Boot), navigate to each microservice folder and run:-   mvn clean install or clean and build manually.
+   - For frontend (React), navigate to the frontend directory and run:- npm install
+
+4. Run the Application:
+   - For backend services, run each Spring Boot microservice manually or :- mvn spring-boot:run
+   - For the frontend, run:-  npm start
+
+5. ready to test.
+
